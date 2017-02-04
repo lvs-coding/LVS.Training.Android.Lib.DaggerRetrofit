@@ -2,11 +2,13 @@
 package com.example.dagger2andretrofit2.http.apimodel;
 
 import java.util.List;
+
+import com.example.dagger2andretrofit2.http.apimodel.Links;
+import com.example.dagger2andretrofit2.http.apimodel.Top;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 public class Twitch {
-
     @SerializedName("_total")
     @Expose
     private Integer total;
